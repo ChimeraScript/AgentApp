@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".authentication.AuthFragment">
+
+    <ScrollView
+        android:id="@+id/anonymousRegister"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:id="@+id/saveText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Access to your data"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/saveText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="everywhere"
+                android:textSize="15sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <Button
+                    android:id="@+id/createAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:background="@color/white_fachero"
+                    android:drawableLeft="@drawable/create_account"
+                    android:paddingStart="16dp"
+                    android:text="Create account"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlSymmetry" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/Login"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:background="@color/white_fachero"
+                    android:drawableLeft="@drawable/login"
+                    android:paddingStart="16dp"
+                    android:text="Login"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlSymmetry" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/GoogleButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:background="@color/white_fachero"
+                    android:drawableLeft="@mipmap/ic_google"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:text="@string/Google"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    app:strokeColor="@color/orange_fachero"
+                    tools:ignore="RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

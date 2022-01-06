@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todayFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Today Fragment"/>
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard Fragment"/>
+
+    <item
+        android:id="@+id/infoFragment"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="Info Fragment"/>
+
+</menu>

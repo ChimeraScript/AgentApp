@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoToday</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_reminders">Reminders channel</string>
+    <string name="channel_notification">Reminders</string>
+    <string name="channel_description">Reminder\'s notifications</string>
+    <string name="Google">Google</string>
+    <string name="start">Start</string>
+    <string name="type_your_name">Type your name</string>
+</resources>
